@@ -7,12 +7,16 @@ from task1 import *
 
 
 
-def recursionByCompany(?,...):
-    #TODO
+def recursionByCompany(dataset):
+    dataset["company"][]
 
 
-def recursionByStudents(?,...):
-    #TODO
+
+def recursionByStudents(dataset,sum=0):
+    recursionByCompany(dataset[0])
+    sum = sum + recursionByCompany(dataset[0])
+    recursionByStudents(dataset[1:],sum)
+
 
 
 print("Task 3")

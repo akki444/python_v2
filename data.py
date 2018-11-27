@@ -18,13 +18,17 @@
 
 dataset = \
 {
+    "student1":{
+        "studpaper":"KB-12121212",
+        "company":{"privat24":{"writting","reading"}}
+    }
 
 
 }
 
 
 
-
+print(dataset)
 
 
 
